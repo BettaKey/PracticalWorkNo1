@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<h1>Конвертер валют</h1>
+<form method="post" action="/PW1/conv_result">
+  Из
+  <select name="fromCur">
+    <option value="USD">$</option>
+    <option value="RUB">₽</option>
+  </select>
+  в
+  <select name="toCur" >
+    <option value="RUB">₽</option>
+    <option value="USD">$</option>
+  </select>
+  <br><br>
+  <input type="number" name="amount" placeholder="Сумма" required>
+  <br><br>
+  <input type="submit" value="Конвертировать">
+</form>
+</body>
+</html>

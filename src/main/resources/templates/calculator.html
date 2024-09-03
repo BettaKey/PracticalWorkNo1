@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Калькулятор</h1>
+<form method="post" action="/PW1/calc_result">
+    <input type="number" name="num1" placeholder="Первое число" required>
+    <select name="operation">
+        <option value="add" placeholder="Тип операции">+</option>
+        <option value="sub">-</option>
+        <option value="multi">*</option>
+        <option value="div">/</option>
+    </select>
+    <input  type="number" name="num2" placeholder="Второе число" required>
+    <input type="submit" value="Рассчитать">
+</form>
+</body>
+</html>
